@@ -1,0 +1,179 @@
+svg{
+  background-color: #975a31;
+  /* background-color: #703; */
+}
+
+.cls-1 {
+    fill: #fff;
+    stroke: #000222;
+    stroke-width: 2px;
+  }
+  .cls-1,
+  .cls-3,
+  .cls-4 {
+    stroke-miterlimit: 10;
+  }
+  .cls-2 {
+    font-size: 28px;
+    fill: #000222;
+    font-family: MyriadPro-Regular, Myriad Pro;
+  }
+  .cls-3,
+  .cls-4 {
+    stroke: #000;
+  }
+  .cls-3 {
+    stroke-width: 19px;
+  }
+  .cls-4 {
+    fill: none;
+    stroke-width: 5px;
+  }
+  
+  .animation2 {
+    animation: rueda 1 2s linear;
+    transform-origin: 50% 45.7%;
+    transform: rotate(80deg);
+  }
+  
+  @keyframes rueda {
+    0% {
+      transform: rotate(80deg);
+     }
+    100% {
+      transform: rotate(440deg);
+    }
+  }
+  
+  .animation {
+    animation: bolas 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  }
+  
+  @keyframes bolas {
+    0% {
+      transform: rotate(0deg);
+    }
+    12% {
+      transform: rotate(30deg);
+    }
+    32% {
+      transform: rotate(25deg);
+    }
+  
+    50% {
+      transform: rotate(30deg);
+    }
+  
+    70% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+   #bola95  {
+    animation: bola95 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  
+  } 
+  
+  #bola70 {
+    animation: bola70 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  }
+  
+  #bola21 {
+    animation: bola21 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  }
+  
+  #bola3 {
+    animation: bola3 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  } 
+  #bola84 {
+    animation: bola3 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  } 
+  #bola34 {
+    animation: bola3 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  } 
+  #bola2 {
+    animation: bola3 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  } 
+  #bola19 {
+    animation: bola3 1 4s backwards;
+    transform-origin: 50% 45.7%;
+  } 
+  
+  
+   @keyframes bola95 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-25deg);}
+    32% {transform: rotate(-25deg);}
+    50% {transform: rotate(-30deg);}
+    70% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+  }
+  
+   @keyframes bola21 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-35deg);}
+    32% {transform: rotate(-25deg);}
+    50% {transform: rotate(-30deg);}
+    70% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola3 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-20deg);}
+    50% {transform: rotate(-30deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola70 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-15deg);}
+    50% {transform: rotate(-20deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola84 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-15deg);}
+    50% {transform: rotate(-20deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola34 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-15deg);}
+    50% {transform: rotate(-20deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola2 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-15deg);}
+    50% {transform: rotate(-20deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  @keyframes bola19 {
+    0% {transform: rotate(0deg);}
+    12% {transform: rotate(-20deg);}
+    32% {transform: rotate(-15deg);}
+    50% {transform: rotate(-20deg);}
+    70% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
+  
